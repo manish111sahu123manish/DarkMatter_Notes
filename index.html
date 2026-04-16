@@ -6,178 +6,143 @@
 <title>डार्क मैटर - ब्रह्मांड का रहस्य</title>
 
 <style>
-body {
-    font-family: 'Segoe UI', sans-serif;
-    line-height: 1.8;
-    margin: 0;
-    color: #ffffff;
-    background: radial-gradient(circle at bottom, #0b0c2a 0%, #000000 100%);
-    overflow-x: hidden;
-}
+    body {
+        font-family: 'Segoe UI', sans-serif;
+        line-height: 1.8;
+        margin: 0;
+        background: #0b0c2a;
+        color: #ffffff;
+    }
 
-/* Stars Background */
-.stars, .stars2, .stars3 {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-}
+    .container {
+        max-width: 900px;
+        margin: auto;
+        padding: 20px;
+    }
 
-.stars {
-    background: transparent;
-    box-shadow: 
-        100px 200px #fff, 300px 400px #fff, 500px 100px #fff,
-        700px 300px #fff, 900px 600px #fff, 1200px 200px #fff,
-        1500px 500px #fff, 1700px 100px #fff, 1900px 400px #fff;
-    animation: animStar 50s linear infinite;
-}
+    h1 {
+        text-align: center;
+        color: #00d4ff;
+        font-size: 2.5em;
+    }
 
-.stars2 {
-    box-shadow:
-        200px 300px #aaa, 400px 500px #aaa, 600px 200px #aaa,
-        800px 400px #aaa, 1000px 700px #aaa, 1400px 300px #aaa;
-    animation: animStar 100s linear infinite;
-}
+    h2 {
+        color: #ffcc00;
+        margin-top: 30px;
+    }
 
-.stars3 {
-    box-shadow:
-        150px 250px #fff, 350px 450px #fff, 750px 350px #fff,
-        1150px 450px #fff, 1750px 550px #fff;
-    animation: animStar 150s linear infinite;
-}
+    h3 {
+        color: #00ffcc;
+    }
 
-@keyframes animStar {
-    from { transform: translateY(0); }
-    to { transform: translateY(-2000px); }
-}
+    p {
+        margin: 10px 0;
+    }
 
-/* Main Container */
-.container {
-    max-width: 900px;
-    margin: auto;
-    padding: 20px;
-}
+    .highlight {
+        background: #1c1f4a;
+        padding: 15px;
+        border-left: 5px solid #00d4ff;
+        border-radius: 5px;
+        margin: 20px 0;
+    }
 
-/* Glass Effect Box */
-.box {
-    background: rgba(18, 20, 74, 0.7);
-    backdrop-filter: blur(10px);
-    padding: 20px;
-    border-radius: 15px;
-    margin: 20px 0;
-    box-shadow: 0 0 20px rgba(0, 212, 255, 0.2);
-}
+    .box {
+        background: #12144a;
+        padding: 20px;
+        border-radius: 10px;
+        margin: 20px 0;
+        box-shadow: 0 0 10px rgba(0, 212, 255, 0.3);
+    }
 
-h1 {
-    text-align: center;
-    color: #00d4ff;
-    font-size: 2.5em;
-    text-shadow: 0 0 10px #00d4ff;
-}
+    .quote {
+        font-style: italic;
+        color: #ccc;
+        border-left: 4px solid #ffcc00;
+        padding-left: 10px;
+        margin: 15px 0;
+    }
 
-h2 {
-    color: #ffcc00;
-    margin-top: 30px;
-}
-
-h3 {
-    color: #00ffcc;
-}
-
-.highlight {
-    background: rgba(28, 31, 74, 0.8);
-    padding: 15px;
-    border-left: 5px solid #00d4ff;
-    border-radius: 8px;
-    margin: 20px 0;
-}
-
-.quote {
-    font-style: italic;
-    color: #ccc;
-    border-left: 4px solid #ffcc00;
-    padding-left: 10px;
-    margin: 15px 0;
-}
-
-ul {
-    padding-left: 20px;
-}
-
-footer {
-    text-align: center;
-    margin-top: 40px;
-    font-size: 0.9em;
-    color: #aaa;
-}
+    footer {
+        text-align: center;
+        margin-top: 40px;
+        font-size: 0.9em;
+        color: #aaa;
+    }
 </style>
 </head>
 
 <body>
 
-<!-- Stars -->
-<div class="stars"></div>
-<div class="stars2"></div>
-<div class="stars3"></div>
-
 <div class="container">
 
-<h1>🌌 डार्क मैटर</h1>
-<h2>ब्रह्मांड के सबसे बड़े रहस्यों की यात्रा</h2>
+    <h1>🌌 डार्क मैटर</h1>
+    <h2>ब्रह्मांड के सबसे बड़े रहस्यों की यात्रा</h2>
 
-<div class="box">
-<p>जब भी हम रात के आकाश में तारों को देखते हैं, तो हमें लगता है कि ब्रह्मांड का अधिकांश भाग हमें दिखाई दे रहा है। लेकिन आधुनिक ब्रह्मांड विज्ञान ने यह सिद्ध कर दिया है कि हम जो देखते हैं, वह केवल हिमशैल का सिरा है।</p>
+    <div class="box">
+        <p>जब भी हम रात के आकाश में तारों को देखते हैं, तो हमें लगता है कि ब्रह्मांड का अधिकांश भाग हमें दिखाई दे रहा है। लेकिन आधुनिक ब्रह्मांड विज्ञान ने यह सिद्ध कर दिया है कि हम जो देखते हैं, वह केवल हिमशैल का सिरा है।</p>
 
-<div class="highlight">
-<strong>महत्वपूर्ण तथ्य:</strong><br>
-दृश्य पदार्थ = 4.9%<br>
-डार्क मैटर = 26.8%<br>
-डार्क एनर्जी = 68.3%
+        <div class="highlight">
+            <strong>महत्वपूर्ण तथ्य:</strong><br>
+            दृश्य पदार्थ (बैरयोनिक) = 4.9%<br>
+            डार्क मैटर = 26.8%<br>
+            डार्क एनर्जी = 68.3%
+        </div>
+
+        <p>यही नहीं, सबसे चौंकाने वाली बात यह है कि इन दोनों के बारे में हम बहुत कम जानते हैं।</p>
+
+        <p><strong>डार्क मैटर</strong> वह पदार्थ है जो प्रकाश का उत्सर्जन, अवशोषण या परावर्तन नहीं करता, केवल गुरुत्वाकर्षण बल के माध्यम से अपनी उपस्थिति दर्ज कराता है।</p>
+
+        <p><strong>डार्क एनर्जी</strong> एक रहस्यमयी प्रतिकर्षी बल है जो ब्रह्मांड के विस्तार को त्वरित कर रही है।</p>
+    </div>
+
+    <h2>अध्याय 1: वह युग जब किसी ने अदृश्य पदार्थ की कल्पना नहीं की थी</h2>
+
+    <div class="box">
+        <h3>1.1 न्यूटन से परे: क्या ब्रह्मांड स्थिर है?</h3>
+
+        <p>सन् 1687 में सर आइजैक न्यूटन ने अपनी पुस्तक <em>'फिलोसोफी नेचुरलिस प्रिंसिपिया मैथमेटिका'</em> में सार्वभौमिक गुरुत्वाकर्षण का नियम दिया।</p>
+
+        <p>इसके अनुसार, ब्रह्मांड में प्रत्येक कण दूसरे कण को अपनी ओर आकर्षित करता है।</p>
+
+        <div class="quote">
+            यदि ब्रह्मांड अनंत और स्थिर है, तो वह संकुचित क्यों नहीं हो जाता?
+        </div>
+
+        <p>न्यूटन ने इसका समाधान देने की कोशिश की — यदि ब्रह्मांड वास्तव में अनंत है, तो हर दिशा से आने वाले गुरुत्वाकर्षण बल संतुलित हो सकते हैं।</p>
+
+        <p>लेकिन यह संतुलन अस्थिर था, जैसे किसी पेंसिल को उसके नुकीले सिरे पर खड़ा करना।</p>
+    </div>
+
+    <div class="box">
+        <h3>1.2 ओलबर्स विरोधाभास: रात इतनी काली क्यों है?</h3>
+
+        <p>सन् 1823 में जर्मन खगोलशास्त्री हेनरिक विल्हेम ओलबर्स ने एक सरल प्रश्न पूछा —</p>
+
+        <div class="quote">
+            यदि ब्रह्मांड अनंत और तारों से भरा है, तो रात का आकाश पूरी तरह उज्ज्वल क्यों नहीं है?
+        </div>
+
+        <p>हर दिशा में एक तारा होना चाहिए, चाहे वह कितना ही दूर क्यों न हो।</p>
+
+        <p>यह ओलबर्स विरोधाभास सीधे डार्क मैटर से जुड़ा नहीं था, लेकिन इसने यह संकेत दिया कि:</p>
+
+        <ul>
+            <li>ब्रह्मांड अनंत नहीं हो सकता</li>
+            <li>या यह स्थिर नहीं है</li>
+            <li>या प्रकाश हम तक नहीं पहुँचता</li>
+        </ul>
+
+        <div class="highlight">
+            बाद में इसका समाधान ब्रह्मांड के विस्तार और उसकी सीमित आयु के सिद्धांत से हुआ।
+        </div>
+    </div>
+
+    <footer>
+        ✨ ब्रह्मांड अभी भी रहस्यों से भरा है...
+    </footer>
+
 </div>
-
-<p>डार्क मैटर केवल गुरुत्वाकर्षण के माध्यम से अपनी उपस्थिति दर्ज कराता है।</p>
-<p>डार्क एनर्जी ब्रह्मांड के विस्तार को त्वरित कर रही है।</p>
-</div>
-
-<h2>अध्याय 1: अदृश्य पदार्थ से पहले का युग</h2>
-
-<div class="box">
-<h3>1.1 न्यूटन से परे</h3>
-
-<p>1687 में न्यूटन ने सार्वभौमिक गुरुत्वाकर्षण का नियम दिया।</p>
-
-<div class="quote">
-यदि ब्रह्मांड स्थिर है, तो वह संकुचित क्यों नहीं होता?
-</div>
-
-<p>उन्होंने संतुलन का विचार दिया, लेकिन यह अस्थिर था।</p>
-</div>
-
-<div class="box">
-<h3>1.2 ओलबर्स विरोधाभास</h3>
-
-<div class="quote">
-रात का आकाश पूरी तरह उज्ज्वल क्यों नहीं है?
-</div>
-
-<ul>
-<li>ब्रह्मांड अनंत नहीं</li>
-<li>या स्थिर नहीं</li>
-<li>या प्रकाश नहीं पहुँचता</li>
-</ul>
-
-<div class="highlight">
-समाधान: ब्रह्मांड का विस्तार और सीमित आयु
-</div>
-
-</div>
-yyyyyyyyyyyyyyyyyyyyyy
-<footer>
-✨ ब्रह्मांड अभी भी रहस्यों से भरा है...
-</footer>
-
-</div>
-
+44
 </body>
 </html>
